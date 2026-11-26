@@ -57,7 +57,7 @@ public enum CRESTClient implements MinecraftClientAccess {
 
    public static final String internalField0248 = "CRESTClient";
    public static final String internalField0247 = "2.1";
-   public static final String internalField1077 = "CRESTClient".toLowerCase();
+   public static final String internalField1077 = "rockstar".toLowerCase();
    public static final String internalField1076 = "https://ftapi.rockstar.pub/v1/";
    public static final String internalField1079 = "rockstar.pub";
    public static final int internalField0227 = 443;
