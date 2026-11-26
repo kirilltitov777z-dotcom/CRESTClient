@@ -57,6 +57,8 @@ public final class PortBranding {
       context.fill(x - 4, y - 3, x + width + 4, y + 12, 0xA0000000);
       context.drawTextWithShadow(client.textRenderer, Text.literal(PREFIX), x, y, 0xFFE3E9F0);
       context.drawTextWithShadow(client.textRenderer, Text.literal(TELEGRAM_URL), x + client.textRenderer.getWidth(PREFIX), y, 0xFF5BCAFF);
+      // CRESTClient purple-cross logo
+      CrestBranding.renderLogo(new pyrock.utility.render.CustomDrawContext(context), x, y - 22, 18.0F);
    }
 
    public static boolean vanillaLinkHovered(double mouseX, double mouseY, MinecraftClient client) {
