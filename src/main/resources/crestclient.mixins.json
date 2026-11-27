@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "crestclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": { "defaultRequire": 1 },
+  "client": []
+}

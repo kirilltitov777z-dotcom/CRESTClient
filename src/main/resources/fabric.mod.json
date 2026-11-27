@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "crestclient",
+  "version": "${version}",
+  "name": "CRESTClient",
+  "description": "CRESTClient — own clean Fabric 1.21.11 client. ESP, legit AimAssist, TriggerBot, AutoBuy, own GUI. No KillAura.",
+  "authors": ["kindmops"],
+  "license": "CC0-1.0",
+  "icon": "assets/crestclient/textures/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "crestclient.CrestClient"
+    ]
+  },
+  "mixins": [
+    "crestclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
